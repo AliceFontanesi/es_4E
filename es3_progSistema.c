@@ -6,10 +6,9 @@
 
 int main(int argc, char **argv)
 {
-    int p1p0[2], pid;
+    int p1p0[2], pid, tot = 0;
     char parola[20];
     char trovate[20];
-    int tot = 0;
     
     if (argc != 2)
     {
